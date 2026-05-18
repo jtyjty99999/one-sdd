@@ -1,0 +1,30 @@
+{
+  "name": "one-sdd",
+  "version": "1.10.0",
+  "description": "Battle-tested Codex workflows — curated One SDD skills + SDD pipeline, production-ready MCP configs, and selective-install-aligned conventions for TDD, security scanning, code review, and spec-driven development.",
+  "author": {
+    "name": "One SDD"
+  },
+  "homepage": "https://g.hz.netease.com/codewave/one-sdd",
+  "repository": "https://g.hz.netease.com/codewave/one-sdd",
+  "license": "MIT",
+  "keywords": ["codex", "agents", "skills", "sdd", "tdd", "code-review", "security", "workflow", "automation"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "One SDD",
+    "shortDescription": "Curated One SDD skills + Spec Driven Development pipeline plus MCP configs for TDD, security, code review.",
+    "longDescription": "One SDD is a focused plugin for general software development with Java / Python / JavaScript / TypeScript. It bundles a Spec Driven Development pipeline (specify → clarify → design → tasks → implement → verify), TDD workflow, security scanning, code review, architecture decisions, and verification loops — all in one installable plugin.",
+    "developerName": "One SDD",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://g.hz.netease.com/codewave/one-sdd",
+    "defaultPrompt": [
+      "Use the sdd-workflow skill to drive feature work via spec → clarify → design → tasks → implement → verify.",
+      "Use speckit-* skills (under ./skills/) for the GitHub Spec Kit lane with .specify/ when that workflow is active.",
+      "Use the tdd-workflow skill to write tests before implementation.",
+      "Use the security-review skill to scan for OWASP Top 10 vulnerabilities.",
+      "Use the verification-loop skill to verify correctness before shipping changes."
+    ]
+  }
+}

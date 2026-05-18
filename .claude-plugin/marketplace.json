@@ -1,0 +1,47 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "one-sdd",
+  "description": "One SDD — agents, skills, hooks, SDD pipeline, and installer tooling for engineering teams (Java / Python / JavaScript / TypeScript).",
+  "owner": {
+    "name": "One SDD"
+  },
+  "metadata": {
+    "description": "Spec-driven and review-focused Claude Code / Cursor plugin distribution."
+  },
+  "plugins": [
+    {
+      "name": "one-sdd",
+      "source": "./",
+      "description": "15 agents, 40 skills, 24 commands, selective install profiles, hooks for TDD, security scanning, code review, and SDD workflows.",
+      "version": "1.10.0",
+      "author": {
+        "name": "One SDD"
+      },
+      "homepage": "https://g.hz.netease.com/codewave/one-sdd",
+      "repository": "https://g.hz.netease.com/codewave/one-sdd.git",
+      "license": "MIT",
+      "keywords": [
+        "agents",
+        "skills",
+        "hooks",
+        "commands",
+        "tdd",
+        "code-review",
+        "security",
+        "best-practices"
+      ],
+      "category": "workflow",
+      "tags": [
+        "agents",
+        "skills",
+        "hooks",
+        "commands",
+        "tdd",
+        "code-review",
+        "security",
+        "best-practices"
+      ],
+      "strict": false
+    }
+  ]
+}

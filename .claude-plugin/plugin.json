@@ -1,0 +1,45 @@
+{
+  "name": "one-sdd",
+  "version": "1.10.0",
+  "description": "Battle-tested Claude Code plugin for engineering teams — agents, skills, hooks, and SDD (Spec Driven Development) workflow for general software development with Java / Python / JavaScript / TypeScript focus",
+  "author": {
+    "name": "One SDD"
+  },
+  "homepage": "https://g.hz.netease.com/codewave/one-sdd",
+  "repository": "https://g.hz.netease.com/codewave/one-sdd",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "agents",
+    "skills",
+    "hooks",
+    "rules",
+    "tdd",
+    "sdd",
+    "spec-driven-development",
+    "code-review",
+    "security",
+    "workflow",
+    "automation",
+    "best-practices"
+  ],
+  "agents": [
+    "./agents/architect.md",
+    "./agents/build-error-resolver.md",
+    "./agents/code-reviewer.md",
+    "./agents/database-reviewer.md",
+    "./agents/doc-updater.md",
+    "./agents/docs-lookup.md",
+    "./agents/e2e-runner.md",
+    "./agents/java-build-resolver.md",
+    "./agents/java-reviewer.md",
+    "./agents/planner.md",
+    "./agents/python-reviewer.md",
+    "./agents/refactor-cleaner.md",
+    "./agents/security-reviewer.md",
+    "./agents/tdd-guide.md",
+    "./agents/typescript-reviewer.md"
+  ],
+  "skills": ["./skills/"],
+  "commands": ["./commands/"]
+}

@@ -1,0 +1,7 @@
+{
+  "version": "v0.8.11",
+  "source": "git+https://github.com/github/spec-kit.git@v0.8.11",
+  "license": "MIT",
+  "integration": "cursor-agent",
+  "generatedAt": "2026-05-17T00:00:00.000Z"
+}
